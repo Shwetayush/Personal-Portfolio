@@ -35,7 +35,7 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.about, .project, .skills, .contact, footer{
+.about, .project, .skills, .contact{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content,
@@ -165,7 +165,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/banner.jpg") no-repeat center;
+    background: url("images/banner.jpg") no-repeat;
     height: 100vh;
     color: #fff;
     min-height: 500px;
